@@ -49,7 +49,7 @@ const CampSite = ({ bImage, title, subtitle, peopleJoined }: CampProps) => {
                             />
                         ))}
                     </span>
-                    <p className="font-bold mt-2 md:bold-20 text-white">{peopleJoined}</p>
+                    <p className="font-bold mt-2 md:text-[20px] font-[700]   text-white">{peopleJoined}</p>
                 </div>
             </div>
         </div>
