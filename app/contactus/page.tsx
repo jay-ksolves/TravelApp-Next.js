@@ -50,6 +50,9 @@ const ContactUs = () => {
                         >
                             Submit
                         </button>
+                        <div className='mx-auto ml-60 text-center'>
+                            <img src="logo.png" alt="logo" width={150} />
+                        </div>
                     </div>
                 </form>
             </div>

@@ -84,6 +84,10 @@ const Pricing = () => {
                 <div className="border rounded-lg shadow-sm overflow-hidden bg-white">
                     {/* Price and features */}
                     <h1 className='text-center mt-40 text-lg font-mono font-extrabold'>Coming soon...</h1>
+
+                    <div className='mx-auto ml-20 p-5 text-center'>
+                        <img src="logo.png" alt="logo" width={150} />
+                    </div>
                 </div>
             </div>
         </div>

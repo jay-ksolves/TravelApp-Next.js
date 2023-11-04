@@ -17,7 +17,9 @@ function LoginPage() {
     return (
         <div className="bg-gray-100  flex items-center justify-center mx-auto max-w-[1440px]">
             <div className="glass p-5 m-20 text-light">
-                <h1 className="text-center font-lobster text-3xl">Welcome to Login page</h1>
+                <h1 className="text-center font-lobster text-3xl">
+                    <img src='/camp.svg' alt='camp' />
+                    Welcome to Login page</h1>
                 <br />
                 <div className="bg-dark p-3 rounded-lg max-w-sm mx-auto">
                     <label htmlFor="EmailId">Email Id</label>
@@ -44,7 +46,7 @@ function LoginPage() {
                     >
                         Login Now
                     </button>
-                    <hr  className='mt-5'/>
+                    <hr className='mt-5' />
                     <Link href="/signup" className="block text-center text-light hover:underline mt-5" >
                         <button style={{ textDecoration: 'none' }}>
                             Visit Signup Page
