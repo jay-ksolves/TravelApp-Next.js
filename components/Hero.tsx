@@ -56,6 +56,8 @@ const Hero = () => {
                 </div>
             </div>
 
+            {/* -------------------Location card--------------------- */}
+
             <div className="relative flex flex-1 items-start py-7">
                 <div className="relative z-20 flex w-[260px] flex-col gap-4 rounded-3xl bg-emerald-500 px-4 py-3">
 
