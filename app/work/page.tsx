@@ -2,10 +2,10 @@ import React from "react";
 
 const Work = () => {
     return (
-        <div className="mx-auto max-w-[1440px] bg-green-100 mt-6 p-6 glass pb-12">
-            <p className="text-gray-700 font-extralight font-light flex flex-col  ">
-                <span className="text-green-800 font-extrabold font-mono capitalize">
-                    TrekEase
+        <div className="mx-auto max-w-[1440px] mt-6 p-6 glass pb-12 tracking-normal whitespace-wrap leading ">
+            <p className="text-gray-700 font-light flex flex-col  ">
+                <span className="text-green-800 font-extrabold font-semibold capitalize text">
+                    Trek Ease
                 </span>
                 we are your companions on every journey, dedicated to helping you
                 discover the unspoiled beauty of nature. With our all-in-one app, we aim
@@ -24,7 +24,12 @@ const Work = () => {
                 the thrill of the great outdoors. With TrekEase, you'll always find the
                 easy path to your next adventure.
             </p>
-            <h1 className="p-4 mx-auto text-center from-stone-700 animate-pulse text-xl">ThankYou!!</h1>
+            <h1 className="p-4 mx-auto text-center from-stone-700 animate-pulse text-xl font-mono" >ThankYou!!</h1>
+            <div className="text-center justify-center">
+
+                <img src="logo.png" alt="logo" width={150} className="" />
+
+            </div>
         </div>
     );
 };
