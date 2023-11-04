@@ -45,7 +45,7 @@ const Hero = () => {
                         type="button"
                         title="Download App"
                         icon='/download.svg'
-                        variant="border-green-500 bg-green-500 px-5 py-5 text-white flex hover:bg-sky-400 hover:text-black"
+                        variant="border-green-500 bg-green-500 px-5 py-5 text-white animate-bounce flex hover:bg-sky-400 hover:text-black"
                     />
                     <Button
                         type="button"

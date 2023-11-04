@@ -6,10 +6,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="flex items-center justify-center mb-24 p-3">
-      <div className="padding-container max-container flex w-full flex-col gap-14">
+      <div className="px-6 lg:px-20 3xl:px-0 mx-auto max-w-[1440px]flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
-            <img src="logo.png" alt="logo" width={200} height={200}/>
+            <img src="logo.png" alt="logo" width={200} height={200} />
           </Link>
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>

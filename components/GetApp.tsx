@@ -1,14 +1,19 @@
-import React from 'react'
-import Button from './Button'
-import Image from 'next/image'
+import React from "react";
+import Button from "./Button";
+import Image from "next/image";
 
 const GetApp = () => {
   return (
-    <section className="flex items-center justify-center   w-full flex-col pb-[100px]">
-      <div className="max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl ">
+    <section className="flex items-center justify-center  text-white  w-full flex-col pb-[100px]">
+      <div className=" mx-auto max-w-[1440px] relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-900 bg-cover bg-center bg-no-repeat px-6 py-12 sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-4xl "
+      style={{backgroundImage:"url('pattern.png')",borderRadius:'100px'}}>
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
-          <h2 className="text-[40px] font-[700] leading-[120%] lg:text-[64px] font-[700] leading-[120%]  xl:max-w-[320px]">Get for free now!</h2>
-          <p className="regular-16 text-gray-10">Available on iOS and Android</p>
+          <h2 className="text-[40px] font-[700] leading-[120%] lg:text-[64px] font-[700] leading-[120%]  xl:max-w-[320px]">
+            Get for free now!
+          </h2>
+          <p className="regular-16 text-gray-10">
+            Available on iOS and Android
+          </p>
           <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
             <Button
               type="button"
@@ -32,7 +37,7 @@ const GetApp = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default GetApp
+export default GetApp;
