@@ -19,7 +19,7 @@ const CampSite = ({ bImage, title, subtitle, peopleJoined }: CampProps) => {
     };
 
     return (
-        <div className='h-full w-full min-w-[1200px] lg:rounded-r-5xl 2xl:rounded-5xl translate-x-10 ' style={backgroundStyle}>
+        <div className='h-full w-full min-w-[1000px] lg:rounded-r-5xl 2xl:rounded-5xl translate-x-10 ' style={backgroundStyle}>
             <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
                 <div className="flex gap-4">
                     <div className="rounded-full bg-blue-500 p-4">
@@ -36,7 +36,7 @@ const CampSite = ({ bImage, title, subtitle, peopleJoined }: CampProps) => {
                     </div>
                 </div>
 
-                <div className="flexCenter gap-6">
+                <div className="flex gap-6">
                     <span className="flex -space-x-4 overflow-hidden">
                         {PEOPLE_URL.map((url) => (
                             <Image
@@ -49,7 +49,7 @@ const CampSite = ({ bImage, title, subtitle, peopleJoined }: CampProps) => {
                             />
                         ))}
                     </span>
-                    <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
+                    <p className="font-bold mt-2 md:bold-20 text-white">{peopleJoined}</p>
                 </div>
             </div>
         </div>
@@ -58,8 +58,8 @@ const CampSite = ({ bImage, title, subtitle, peopleJoined }: CampProps) => {
 
 const Camp = () => {
     return (
-        <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
-            <div className="hide-scrollbar flex h-[400px] w-full items-start justify-start gap-8 overflow-x-auto  lg:h-[400px] xl:h-[650px]">
+        <section className="2xl:mx-auto 2xl:max-w-[1440px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+            <div className="hide-scrollbar flex h-[350px] w-full items-start justify-start gap-8 overflow-x-auto  lg:h-[500px] xl:h-[500px]">
                 <CampSite
                     bImage="img-1.png"
                     title="Putuk Truno Camp"
@@ -74,20 +74,20 @@ const Camp = () => {
                 />
             </div>
 
-            <div className="flex-end mt-10 px-6 lg:-mt-60 lg:mr-6">
-                <div className="bg-green-700 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
-                    <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
+            <div className="flex items-center justify-end px-80 lg:-mt-40 lg:mr-6">
+                <div className="bg-blue-500 p-8 lg:max-w-[400px] xl:max-w-[600px] xl:rounded-5xl xl:px-1 xl:py-5 relative w-full overflow-hidden rounded-3xl">
+                    <h2 className="text-4xl md:regular-32 2xl:regular-64 capitalize text-white p-5">
                         <strong>Feeling Lost</strong> And Not Knowing The Way?
                     </h2>
-                    <p className="regular-14 xl:regular-16 mt-5 text-white">
+                    <p className="p-3 mt-5 text-white">
                         Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure
                     </p>
                     <Image
                         src="/quote.svg"
                         alt="camp-2"
-                        width={186}
-                        height={219}
-                        className="camp-quote"
+                        width={100}
+                        height={200}
+                        className="absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;"
                     />
                 </div>
             </div>

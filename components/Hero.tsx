@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Hero = () => {
     return (
-        <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+        <section className="mx-auto max-w-[1440px] padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
             <div className="">
                 <img src='/pattern-bg.png' alt='background pattern' className='absolute right-0 top-0 h-screen w-screen bg-cover bg-center md:-right-28 xl:-top-60'></img>
             </div>
